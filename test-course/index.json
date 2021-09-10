@@ -1,0 +1,58 @@
+{
+    "title": "Test Course",
+    "description": "Katacodaの機能作成方法を確認するためのテストコースです。",
+    "difficulty": "初心者",
+    "time": "5分",
+    "details": {
+        "steps": [
+            {
+                "title": "Flaskアプリケーションを作ってみよう",
+                "text": "step1.md",
+                "background": "create-file.sh"
+            },
+            {
+                "title": "確認テスト",
+                "text": "step2.md",
+                "answer": "step2-answer.md",
+                "verify": "step1-verify.sh"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": "Yuichi Nukiyama"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "client": [
+                {
+                    "file": "app.py",
+                    "target": "~/"
+                }
+            ]
+        }
+    },
+    "files": [
+        "app.js"
+    ],
+    "environment": {
+        "hideHiddenFiles": true,
+        "exclusionPatterns": [
+            "*test",
+            "./test/*",
+            "./logs"
+        ],
+        "showdashboard": true,
+        "dashboards": [
+            {
+                "name": "Flask実行確認",
+                "port": 5000
+            }
+        ],
+        "uilayout": "editor-terminal"
+    },
+    "backend": {
+        "imageid": "python:3.8"
+    }
+}
