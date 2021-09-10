@@ -17,6 +17,7 @@ def hello_world():
 
 これで完成です最後は動かしてみましょう。
 `export FLASK_APP=hello`{{execute}}
-`flask run --host=0.0.0.0`{{execute}}
+`flask run --host=0.0.0.0 --port=8000`{{execute}}
 
 タブで確認してね.
+![cat](./cat.jpg)

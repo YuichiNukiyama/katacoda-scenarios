@@ -46,7 +46,7 @@
         "dashboards": [
             {
                 "name": "Flask実行確認",
-                "port": 5000
+                "port": 8000
             }
         ],
         "uilayout": "editor-terminal"
