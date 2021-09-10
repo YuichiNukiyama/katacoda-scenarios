@@ -13,8 +13,7 @@
             {
                 "title": "確認テスト",
                 "text": "step2.md",
-                "answer": "step2-answer.md",
-                "verify": "step1-verify.sh"
+                "answer": "step2-answer.md"
             }
         ],
         "intro": {
