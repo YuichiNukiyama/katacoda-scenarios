@@ -21,17 +21,18 @@
             "text": "finish.md"
         },
         "assets": {
-            "client": [
+            "host01": [
                 {
                     "file": "app.py",
-                    "target": "~/"
+                    "target": "~/root"
+                },
+                {
+                    "file": "verify.py",
+                    "target": "~/root"
                 }
             ]
         }
     },
-    "files": [
-        "app.py"
-    ],
     "environment": {
         "hideHiddenFiles": true,
         "exclusionPatterns": [
