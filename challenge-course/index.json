@@ -24,11 +24,11 @@
             "host01": [
                 {
                     "file": "app.py",
-                    "target": "~/root"
+                    "target": "~/"
                 },
                 {
                     "file": "verify.py",
-                    "target": "~/root"
+                    "target": "~/"
                 }
             ]
         }
