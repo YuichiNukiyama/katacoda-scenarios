@@ -1,0 +1,48 @@
+{
+    "type": "challenge@0.7",
+    "title": "Challenge Course",
+    "description": "Katacodaのチャレンジを確認するためのテストコースです。",
+    "difficulty": "初心者",
+    "time": "5分",
+    "details": {
+        "steps": [
+            {
+                "title": "Pythonプログラミングテスト",
+                "text": "step1.md",
+                "verify": "1_verify.sh",
+                "hint": "1_hint.sh"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": "Yuichi Nukiyama"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "client": [
+                {
+                    "file": "app.py",
+                    "target": "~/"
+                }
+            ]
+        }
+    },
+    "files": [
+        "app.py"
+    ],
+    "environment": {
+        "hideHiddenFiles": true,
+        "exclusionPatterns": [
+            "*test",
+            "./test/*",
+            "./logs"
+        ],
+        "showdashboard": false,
+        "uilayout": "editor-terminal"
+    },
+    "backend": {
+        "imageid": "python:3.8"
+    }
+}
